@@ -1,0 +1,29 @@
+{
+  "name": "Hentai Hub",
+  "version": "1.0.0",
+  "description": "Hentai providers for Nuvio: HentaiMama, Hentai.TV, Hanime (18+)",
+  "author": "you",
+  "scrapers": [
+    {
+      "id": "hentai-all",
+      "name": "Hentai Hub (All)",
+      "description": "HentaiMama + Hentai.TV + Hanime sekaligus (1x lookup TMDB)",
+      "version": "1.0.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hentai-all.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "ja",
+        "en"
+      ]
+    }
+  ]
+}
